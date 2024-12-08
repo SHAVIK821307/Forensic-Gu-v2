@@ -2,6 +2,7 @@ import React from "react";
 import heroimg from "../assets/heroimg.png";
 import eventinfoimg from "../assets/eventinforectangle.png"
 import { Calendar, MapPin, Mic } from "lucide-react";
+import About from "../components/About";
 const Home = () => {
   return (
     <>
@@ -79,6 +80,7 @@ const Home = () => {
         </div>
       </div>
       </div>
+      <About/>
     </>
   );
 };
