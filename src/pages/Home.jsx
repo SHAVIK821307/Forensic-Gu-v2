@@ -3,6 +3,7 @@ import heroimg from "../assets/heroimg.png";
 import eventinfoimg from "../assets/eventinforectangle.png"
 import { Calendar, MapPin, Mic } from "lucide-react";
 import About from "../components/About";
+import RegistrationCharges from "../components/Registration";
 const Home = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const Home = () => {
           <div className="max-w-xl text-white">
             <div className="backdrop-blur-sm bg-white/10 rounded-2xl p-8 relative border border-white/20 shadow-xl">
               <div className="relative z-10">
-                <p className="text-lg text-white/80 mb-4">
+                <p className="text-lg text-white/80 mb-4 font-semibold">
                   3rd International Conference on Forensic Science
                 </p>
                 <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -81,6 +82,7 @@ const Home = () => {
       </div>
       </div>
       <About/>
+      <RegistrationCharges/>
     </>
   );
 };

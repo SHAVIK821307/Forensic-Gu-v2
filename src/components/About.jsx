@@ -2,7 +2,7 @@ import React from 'react'
 import aboutbg from "../assets/aboutbg.png"
 const About = () => {
   return (
-    <div className="relative min-h-screen w-full p-3 pt-10 sm:p-10 md:pt-28">
+    <div className="relative min-h-screen w-full p-3 py-10 sm:p-10 md:pt-28">
       {/* Background Image */}
       <img
         src={aboutbg}
