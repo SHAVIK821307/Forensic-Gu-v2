@@ -4,6 +4,7 @@ import eventinfoimg from "../assets/eventinforectangle.png"
 import { Calendar, MapPin, Mic } from "lucide-react";
 import About from "../components/About";
 import RegistrationCharges from "../components/Registration";
+import Organizing from "../components/Organizing.jsx"
 const Home = () => {
   return (
     <>
@@ -83,6 +84,7 @@ const Home = () => {
       </div>
       <About/>
       <RegistrationCharges/>
+      <Organizing/>
     </>
   );
 };
