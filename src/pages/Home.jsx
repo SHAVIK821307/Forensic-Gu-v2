@@ -5,6 +5,7 @@ import { Calendar, MapPin, Mic } from "lucide-react";
 import About from "../components/About";
 import RegistrationCharges from "../components/Registration";
 import Organizing from "../components/Organizing.jsx"
+import Sponsors from "../components/Sponsors.jsx";
 const Home = () => {
   return (
     <>
@@ -85,6 +86,7 @@ const Home = () => {
       <About/>
       <RegistrationCharges/>
       <Organizing/>
+      <Sponsors/>
     </>
   );
 };
