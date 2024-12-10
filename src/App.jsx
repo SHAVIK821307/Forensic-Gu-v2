@@ -2,6 +2,7 @@ import Home from './pages/Home'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
             <Route path="/franchise" element={<Franchise />} /> */}
           </Routes>
         </div>
+        <Footer/>
       </div>
     </>
   )

@@ -22,6 +22,7 @@ export default function RegistrationCharges() {
         backgroundSize: "cover",
         backgroundPosition: "center"
       }}
+      id="registration"
     >
       {/* Pink overlay */}
       <div className="absolute inset-0 bg-[#D35CE8]/70 backdrop-blur-sm" />

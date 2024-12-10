@@ -30,9 +30,9 @@ const Home = () => {
                   08-09 February, 2025
                 </span>
                 <br />
-                <button className="bg-[#40bfff] hover:bg-[#40bfff]/80 text-white px-8 py-2 rounded-full font-medium transition-colors">
+                <a href="#registration" className="bg-[#40bfff] hover:bg-[#40bfff]/80 text-white px-8 py-2 rounded-full font-medium transition-colors inline-block mb-1">
                   REGISTER NOW
-                </button>
+                </a>
               </div>
             </div>
           </div>
