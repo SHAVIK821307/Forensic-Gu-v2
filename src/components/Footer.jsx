@@ -1,6 +1,6 @@
 import logo from "../assets/logo.png"
 import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react'
-
+import { NavLink } from "react-router-dom"
 
 export default function Footer() {
   return (
@@ -53,9 +53,9 @@ export default function Footer() {
                 <a href="/team" className="hover:text-[#FF8C00] transition-colors">
                   Our Team
                 </a>
-                <a href="/contact" className="hover:text-[#FF8C00] transition-colors">
+                <NavLink to="/contact" className="hover:text-[#FF8C00] transition-colors">
                   Contact Us
-                </a>
+                </NavLink>
               </nav>
             </div>
             <div className="space-y-3">
