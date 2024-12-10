@@ -92,6 +92,7 @@ export default function Sponsors() {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
+      id="sponsors"
     >
       <div className="absolute inset-0 bg-[#D9D9D9]/70 backdrop-blur-sm" />
       <div className="relative z-10 max-w-6xl mx-auto">

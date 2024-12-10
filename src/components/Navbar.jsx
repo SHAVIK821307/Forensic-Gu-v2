@@ -39,7 +39,7 @@ const Navbar = () => {
                   </li>
               <li >
                     <a
-                      href='#'
+                      href='#about'
                       className="text-sm font-semibold text-gray-600 hover:text-gray-900"
                     >
                       About
@@ -47,7 +47,7 @@ const Navbar = () => {
                   </li>
               <li >
                     <a
-                      href='#'
+                      href='#sponsors'
                       className="text-sm font-semibold text-gray-600 hover:text-gray-900"
                     >
                       Sponsors
@@ -55,7 +55,7 @@ const Navbar = () => {
                   </li>
               <li >
                     <a
-                      href='#'
+                      href='#ourteam'
                       className="text-sm font-semibold text-gray-600 hover:text-gray-900"
                     >
                       Our Team

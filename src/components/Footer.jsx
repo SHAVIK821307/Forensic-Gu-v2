@@ -44,13 +44,13 @@ export default function Footer() {
                 <a href="/" className="hover:text-[#FF8C00] transition-colors">
                   Home
                 </a>
-                <a href="/about" className="hover:text-[#FF8C00] transition-colors">
+                <a href="#about" className="hover:text-[#FF8C00] transition-colors">
                   About Us
                 </a>
-                <a href="/sponsors" className="hover:text-[#FF8C00] transition-colors">
+                <a href="#sponsors" className="hover:text-[#FF8C00] transition-colors">
                   Sponsors
                 </a>
-                <a href="/team" className="hover:text-[#FF8C00] transition-colors">
+                <a href="#ourteam" className="hover:text-[#FF8C00] transition-colors">
                   Our Team
                 </a>
                 <NavLink to="/contact" className="hover:text-[#FF8C00] transition-colors">
@@ -61,19 +61,19 @@ export default function Footer() {
             <div className="space-y-3">
               <h3 className="text-xl font-bold text-[#FF8C00]">CONTACT US</h3>
               <div className="flex space-x-4">
-                <a href="#" className="hover:text-[#FF8C00] transition-colors">
+                <a href="https://www.instagram.com/official_forensis_agora?igsh=MWw1bWJxeXpucGoyYQ==" className="hover:text-[#FF8C00] transition-colors">
                   <Instagram className="h-6 w-6" />
                   <span className="sr-only">Instagram</span>
                 </a>
-                <a href="#" className="hover:text-[#FF8C00] transition-colors">
+                <a href="https://x.com/ForensisA?t=bah7rUsQClm0A2LRxVvVZg&s=09&mx=2" className="hover:text-[#FF8C00] transition-colors">
                   <Twitter className="h-6 w-6" />
                   <span className="sr-only">Twitter</span>
                 </a>
-                <a href="#" className="hover:text-[#FF8C00] transition-colors">
+                <a href="https://www.facebook.com/forensisagora?mibextid=ZbWKwL" className="hover:text-[#FF8C00] transition-colors">
                   <Facebook className="h-6 w-6" />
                   <span className="sr-only">Facebook</span>
                 </a>
-                <a href="#" className="hover:text-[#FF8C00] transition-colors">
+                <a href="https://www.linkedin.com/in/forensis-agora-935295206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="hover:text-[#FF8C00] transition-colors">
                   <Linkedin className="h-6 w-6" />
                   <span className="sr-only">LinkedIn</span>
                 </a>

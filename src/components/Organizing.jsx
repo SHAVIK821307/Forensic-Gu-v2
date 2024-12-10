@@ -85,7 +85,7 @@ export default function Organizing() {
   }, [emblaApi, slidesPerView]);
 
   return (
-    <div className="relative px-4 py-12 bg-teal-950" style={{
+    <div className="relative px-4 py-12 bg-teal-950" id="ourteam" style={{
       backgroundImage: `url(${organizingimg})`,
       backgroundSize: "cover",
       backgroundPosition: "center"
