@@ -3,6 +3,7 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Contact from './pages/Contact'
 
 function App() {
   
@@ -15,8 +16,8 @@ function App() {
         <div className="mx-0 min-h-full">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact/>} />
             {/* <Route path="/about" element={<About />} /> */}
-            {/* <Route path="/contact" element={<Contact />} /> */}
             {/* <Route path="/services" element={<Services />} /> */}
             {/* <Route path="/portfolio" element={<Portfolio />} /> */}
             {/*<Route path="/services" element={<Services />} />

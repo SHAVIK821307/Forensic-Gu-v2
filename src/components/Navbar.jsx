@@ -29,16 +29,46 @@ const Navbar = () => {
             </div>
             <nav className="hidden md:block">
               <ul className="flex gap-8">
-                {["Home", "About", "Sponsors", "Our Team", "Contact"].map((item) => (
-                  <li key={item}>
-                    <NavLink
-                      to="/about"
+              <li >
+                    <a
+                      href='#'
                       className="text-sm font-semibold text-gray-600 hover:text-gray-900"
                     >
-                      {item}
+                      Home
+                    </a>
+                  </li>
+              <li >
+                    <a
+                      href='#'
+                      className="text-sm font-semibold text-gray-600 hover:text-gray-900"
+                    >
+                      About
+                    </a>
+                  </li>
+              <li >
+                    <a
+                      href='#'
+                      className="text-sm font-semibold text-gray-600 hover:text-gray-900"
+                    >
+                      Sponsors
+                    </a>
+                  </li>
+              <li >
+                    <a
+                      href='#'
+                      className="text-sm font-semibold text-gray-600 hover:text-gray-900"
+                    >
+                      Our Team
+                    </a>
+                  </li>
+                  <li >
+                    <NavLink
+                      to="/contact"
+                      className="text-sm font-semibold text-gray-600 hover:text-gray-900"
+                    >
+                      Contact
                     </NavLink>
                   </li>
-                ))}
               </ul>
             </nav>
             <button className="rounded-full p-2 hover:bg-gray-100">
