@@ -1,43 +1,154 @@
 import { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import organizingimg from "../assets/organizingimg.png"
+import organizingimg from "../assets/organizingimg.png";
+import vinnySharma from "../assets/vinnySharma.jpeg";
+import amitabhBiswas from "../assets/amitabhBiswas.jpeg";
+import anugyaAgrawal from "../assets/anugyaAgrawal.jpeg";
+import dhruvGalgotia from "../assets/dhruvGalgotia.jpeg";
+import mudassirNazir from "../assets/mudassirNazir.jpeg";
+import nitinGaur from "../assets/nitinGaur.jpg";
+import poojaKataria from "../assets/poojaKataria.png";
+import shivaniTyagi from "../assets/shivaniTyagi.jpeg";
+import shwetaSharma from "../assets/shwetaSharma.png";
+import ankitSingh from "../assets/ankitSingh.jpeg";
+import suneelGalgotia from "../assets/suneelGalgotia.png";
+import aradhanaGalgotia from "../assets/aradhanaGalgotia.jpeg";
+import namitaSinghMalik from "../assets/namitaSinghMalik.jpeg";
+import abhimanyuKumarJha from "../assets/abhimanyuKumarJha.jpeg";
+import avadeshKumar from "../assets/avadeshKumar.jpeg";
+import kayalaMallikharjunaBabu from "../assets/kayalaMallikharjunaBabu.jpeg";
+import rajeevKumar from "../assets/rajeevKumar.jpeg";
+import neeharikaSrivastava from "../assets/neeharikaSrivastava.jpeg";
+import amandeepKaurBhambara from "../assets/amandeepKaurBhambara.jpeg";
+import kajolBhati from "../assets/kajolBhati.jpg";
+import ayushiSingh from "../assets/ayushiSingh.jpg";
 const teamMembers = [
   {
     id: 1,
-    name: "Member 1",
-    role: "Role 1",
-    image: "/placeholder.svg?height=297&width=233",
+    name: "Mr. Suneel Galgotia",
+    role: "Hon'ble Chancellor",
+    image: suneelGalgotia,
   },
   {
     id: 2,
-    name: "Member 2",
-    role: "Role 2",
-    image: "/placeholder.svg?height=297&width=233",
+    name: "Mr. Dhruv Galgotia",
+    role: "Hon'ble CEO",
+    image: dhruvGalgotia,
   },
   {
     id: 3,
-    name: "Member 3",
-    role: "Role 3",
-    image: "/placeholder.svg?height=297&width=233",
+    name: "Ms. Aradhana Galgotia",
+    role: "Director Operations",
+    image: aradhanaGalgotia,
   },
   {
     id: 4,
-    name: "Member 4",
-    role: "Role 4",
-    image: "/placeholder.svg?height=297&width=233",
+    name: "Prof. (Dr.) Kayala Mallikharjuna Babu",
+    role: "Hon'ble Vice-Chancellor",
+    image: kayalaMallikharjunaBabu,
   },
   {
     id: 5,
-    name: "Member 5",
-    role: "Role 5",
-    image: "/placeholder.svg?height=297&width=233",
+    name: "Prof. (Dr.) Avadesh Kumar",
+    role: "Pro Vice-Chancellor",
+    image: avadeshKumar,
   },
   {
     id: 6,
-    name: "Member 6",
-    role: "Role 6",
-    image: "/placeholder.svg?height=297&width=233",
+    name: "Dr. (Dr.) Nitin Gaur",
+    role: "Registrar",
+    image: nitinGaur,
+  },
+  {
+    id: 7,
+    name: "Prof. (Dr.) Abhimanyu Kumar Jha",
+    role: "Dean, School of Bio Sciences & Technology",
+    image: abhimanyuKumarJha,
+  },
+  {
+    id: 8,
+    name: "Prof. (Dr.) Rajeev Kumar",
+    role: "Conference Organizing Secretary, Professor & Head, Dept. of Forensic Science",
+    image: rajeevKumar,
+  },
+  {
+    id: 9,
+    name: "Dr. (Mrs.) Vinny Sharma",
+    role: "Conference Organizing Secretary, Associate Professor & PC -PG (Forensic Science)",
+    image: vinnySharma,
+  },
+  {
+    id: 10,
+    name: "Dr. Kajol Bhati",
+    role: "Conference Organizing Secretary, Assistant Professor & PC -UG (Forensic Science)",
+    image: kajolBhati,
+  },
+  {
+    id: 11,
+    name: "Mr. Ankit Singh",
+    role: "Conference Organizing Secretary, Assistant Professor (Forensic Sciences)",
+    image: ankitSingh,
+  },
+  {
+    id: 12,
+    name: "Prof. (Dr.) Namita Singh Malik",
+    role: "Professor (SOL)",
+    image: namitaSinghMalik,
+  },
+  {
+    id: 13,
+    name: "Dr. Shweta Sharma",
+    role: "Assistant Professor (Forensic Science)",
+    image: shwetaSharma,
+  },
+  {
+    id: 14,
+    name: "Dr. Pooja Kataria",
+    role: "Assistant Professor (Forensic Science)",
+    image: poojaKataria,
+  },
+  {
+    id: 15,
+    name: "Dr. Neeharika Srivastava",
+    role: "Associate Professor (Forensic Science)",
+    image: neeharikaSrivastava,
+  },
+  {
+    id: 16,
+    name: "Dr. Shivani Tyagi",
+    role: "Assistant Professor (Forensic Science)",
+    image: shivaniTyagi,
+  },
+  {
+    id: 17,
+    name: "Dr. Amandeep Kaur Bhambara",
+    role: "Assistant Professor (Forensic Science)",
+    image: amandeepKaurBhambara,
+  },
+  {
+    id: 18,
+    name: "Dr. Amitabh Biswas",
+    role: "Assistant Professor (Forensic Science)",
+    image: amitabhBiswas,
+  },
+  {
+    id: 19,
+    name: "Dr. Anugya Agrawal",
+    role: "Assistant Professor (Forensic Science)",
+    image: anugyaAgrawal,
+  },
+  {
+    id: 20,
+    name: "Dr. Mudassir Nazir",
+    role: "Assistant Professor (Forensic Science)",
+    image: mudassirNazir,
+  },
+  {
+    id: 21,
+    name: "Ms. Ayushi Singh",
+    role: "Assistant Professor (Forensic Science)",
+    image: ayushiSingh,
   },
 ];
 
@@ -85,11 +196,15 @@ export default function Organizing() {
   }, [emblaApi, slidesPerView]);
 
   return (
-    <div className="relative px-4 py-12 bg-teal-950" id="ourteam" style={{
-      backgroundImage: `url(${organizingimg})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center"
-    }}>
+    <div
+      className="relative px-4 py-12 bg-teal-950"
+      id="ourteam"
+      style={{
+        backgroundImage: `url(${organizingimg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-white mb-12">
           MEET ORGANIZING TEAM
@@ -103,7 +218,17 @@ export default function Organizing() {
                 className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] xl:flex-[0_0_25%] min-w-0 px-3"
               >
                 <div className="bg-white p-2 rounded-lg shadow-lg">
-                  <div className="bg-violet-400 h-[290px] w-full rounded-md" />
+                  <div className=" h-[290px] mb-2 w-full rounded-md" style={{
+                          backgroundImage: `url(${member.image})`,
+                          backgroundSize: "cover",
+                          backgroundPosition: "top"
+                        }}>
+                    
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-1">
+                    {member.name}
+                  </h3>
+                  <p className="text-sm text-gray-600">{member.role}</p>
                 </div>
               </div>
             ))}

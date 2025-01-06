@@ -105,7 +105,7 @@ export default function Sponsors() {
           events.
         </h3>
 
-        <div className="overflow-hidden" ref={emblaRef}>
+        {/* <div className="overflow-hidden" ref={emblaRef}>
           <div className="flex">
             {teamMembers.map((member) => (
               <div
@@ -118,9 +118,9 @@ export default function Sponsors() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
-        <div className="flex justify-center gap-4 mt-6">
+        {/* <div className="flex justify-center gap-4 mt-6">
           <button
             variant="outline"
             size="icon"
@@ -137,7 +137,7 @@ export default function Sponsors() {
           >
             <ChevronRight className="h-4 w-4 text-black" />
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

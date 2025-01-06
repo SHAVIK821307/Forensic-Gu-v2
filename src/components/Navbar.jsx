@@ -71,9 +71,9 @@ const Navbar = () => {
                   </li>
               </ul>
             </nav>
-            <button className="rounded-full p-2 hover:bg-gray-100">
-              <Search className="h-5 w-5" />
-            </button>
+            <a href="#registration" className="bg-[#40bfff] hover:bg-[#40bfff]/80 text-white px-4 md:px-8 py-2 text-xs sm:text-sm rounded-full font-medium transition-colors inline-block mb-1">
+                  Download Brochure
+                </a>
           </div>
         </div>
       </header>
