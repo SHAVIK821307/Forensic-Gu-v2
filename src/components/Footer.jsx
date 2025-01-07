@@ -41,15 +41,15 @@ export default function Footer() {
             <div className="space-y-3">
               <h3 className="text-xl font-bold md:text-right">QUICK LINKS</h3>
               <nav className="flex flex-col md:text-right space-y-2">
-                <a href="/" className="hover:text-[#FF8C00] transition-colors">
+                <NavLink to="/" className="hover:text-[#FF8C00] transition-colors">
                   Home
-                </a>
+                </NavLink>
                 <a href="#about" className="hover:text-[#FF8C00] transition-colors">
                   About Us
                 </a>
-                <a href="#sponsors" className="hover:text-[#FF8C00] transition-colors">
-                  Sponsors
-                </a>
+                <NavLink to="/gallery" className="hover:text-[#FF8C00] transition-colors">
+                  Gallery
+                </NavLink>
                 <a href="#ourteam" className="hover:text-[#FF8C00] transition-colors">
                   Our Team
                 </a>

@@ -78,8 +78,8 @@ export default function Contact() {
           </div>
 
           <div>
-            <label htmlFor="theme" className="block text-sm font-medium text-gray-700">
-            Mobile Number (preferably whatsapp daal dijiye)<span className="text-red-500">*</span>
+            <label htmlFor="mobNo" className="block text-sm font-medium text-gray-700">
+            Mobile Number (preferably whatsapp)<span className="text-red-500">*</span>
             </label>
             <input
             type='number'
@@ -95,7 +95,10 @@ export default function Contact() {
           </div>
 
           <div>
-            <input
+          <label htmlFor="additionalField1" className="block text-sm font-medium text-gray-700">
+            Drop you query<span className="text-red-500">*</span>
+            </label>
+            <textarea
               type="text"
               id="additionalField1"
               name="additionalField1"
@@ -105,7 +108,7 @@ export default function Contact() {
             />
           </div>
 
-          <div>
+          {/* <div>
             <input
               type="text"
               id="additionalField2"
@@ -114,7 +117,7 @@ export default function Contact() {
               onChange={handleChange}
               className="mt-1 block w-full border-2 p-2 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             />
-          </div>
+          </div> */}
         </div>
 
         <div className="flex justify-center">
