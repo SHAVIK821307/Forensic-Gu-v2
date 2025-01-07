@@ -7,7 +7,7 @@ export default function Contact() {
     name: '',
     email: '',
     instituteName: '',
-    theme: '',
+    mobNo: '',
     additionalField1: '',
     additionalField2: '',
   })
@@ -79,21 +79,19 @@ export default function Contact() {
 
           <div>
             <label htmlFor="theme" className="block text-sm font-medium text-gray-700">
-              Theme<span className="text-red-500">*</span>
+            Mobile Number (preferably whatsapp daal dijiye)<span className="text-red-500">*</span>
             </label>
-            <select
-              id="theme"
-              name="theme"
+            <input
+            type='number'
+              id="mobNo"
+              name="mobNo"
               required
-              value={formData.theme}
+              value={formData.mobNo}
               onChange={handleChange}
               className="mt-1 block w-full border-2 p-2 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             >
-              <option value="">Select a theme</option>
-              <option value="theme1">Theme 1</option>
-              <option value="theme2">Theme 2</option>
-              <option value="theme3">Theme 3</option>
-            </select>
+              
+            </input>
           </div>
 
           <div>
@@ -124,7 +122,7 @@ export default function Contact() {
             type="submit" 
             className="bg-gradient-to-r from-[#3CD2FF] to-[#342499] hover:bg-blue-600 text-white px-8 py-2 rounded-full shadow-lg transition-all hover:shadow-xl"
           >
-            REGISTER
+            Submit
           </button>
         </div>
       </form>

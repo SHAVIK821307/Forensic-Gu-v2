@@ -56,7 +56,7 @@ const teamMembers = [
   },
   {
     id: 6,
-    name: "Dr. (Dr.) Nitin Gaur",
+    name: "Dr.Nitin Gaur",
     role: "Registrar",
     image: nitinGaur,
   },

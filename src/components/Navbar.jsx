@@ -30,12 +30,12 @@ const Navbar = () => {
             <nav className="hidden md:block">
               <ul className="flex gap-8">
               <li >
-                    <a
-                      href='#'
+                    <NavLink
+                      to='/'
                       className="text-sm font-semibold text-gray-600 hover:text-gray-900"
                     >
                       Home
-                    </a>
+                    </NavLink>
                   </li>
               <li >
                     <a
@@ -46,12 +46,12 @@ const Navbar = () => {
                     </a>
                   </li>
               <li >
-                    <a
-                      href='#sponsors'
+                    <NavLink
+                      to='/gallery'
                       className="text-sm font-semibold text-gray-600 hover:text-gray-900"
                     >
-                      Sponsors
-                    </a>
+                      Gallery
+                    </NavLink>
                   </li>
               <li >
                     <a

@@ -6,7 +6,9 @@ import About from "../components/About";
 import RegistrationCharges from "../components/Registration";
 import Organizing from "../components/Organizing.jsx"
 import Sponsors from "../components/Sponsors.jsx";
+import { useNavigate } from "react-router-dom";
 const Home = () => {
+  const navigate=useNavigate();
   return (
     <>
       <div className="relative ">
@@ -65,13 +67,13 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <a className="flex items-center gap-2 cursor-pointer" target="_blank" href="https://maps.app.goo.gl/sNSGuF3PauYdJmLH8">
             <MapPin className="h-6 w-6 text-white" />
             <div>
               <div className="text-[#00095C] text-sm font-bold">Location</div>
               <div className="text-white font-bold">Galgotias University</div>
             </div>
-          </div>
+          </a>
 
           {/* <div className="flex items-center gap-2">
             <Mic className="h-6 w-6 text-white" />
