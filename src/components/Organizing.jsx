@@ -26,13 +26,13 @@ import ayushiSingh from "../assets/ayushiSingh.jpg";
 const teamMembers = [
   {
     id: 1,
-    name: "Dr. Suneel Galgotia",
+    name: "Sh. Suneel Galgotia",
     role: "Hon'ble Chancellor",
     image: suneelGalgotia,
   },
   {
     id: 2,
-    name: "Mr. Dhruv Galgotia",
+    name: "Dr. Dhruv Galgotia",
     role: "Hon'ble CEO",
     image: dhruvGalgotia,
   },
