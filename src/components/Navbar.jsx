@@ -71,7 +71,7 @@ const Navbar = () => {
                   </li>
               </ul>
             </nav>
-            <a href="https://drive.google.com/file/d/1ZdEZIt2f_WnJWKemxAHSp-VFfa4orNH2/view?usp=sharing" className="bg-[#40bfff] hover:bg-[#40bfff]/80 text-white px-4 md:px-8 py-2 text-xs sm:text-sm rounded-full font-medium transition-colors inline-block mb-1">
+            <a href="https://drive.google.com/file/d/1D8Y4Pq05_1iJ1oeDmtR9kGtav6o1Jg9J/view?usp=sharing" className="bg-[#40bfff] hover:bg-[#40bfff]/80 text-white px-4 md:px-8 py-2 text-xs sm:text-sm rounded-full font-medium transition-colors inline-block mb-1">
                   Download Brochure
                 </a>
           </div>
