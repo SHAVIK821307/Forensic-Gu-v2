@@ -3,7 +3,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import organizingimg from "../assets/organizingimg.png";
 import vinnySharma from "../assets/vinnySharma.jpeg";
-import amitabhBiswas from "../assets/amitabhBiswas.jpeg";
+import amitabhBiswas from "../assets/amitabhBiswas1.jpeg";
 import anugyaAgrawal from "../assets/anugyaAgrawal.jpeg";
 import dhruvGalgotia from "../assets/dhruvGalgotia.jpeg";
 import mudassirNazir from "../assets/mudassirNazir.jpeg";
@@ -129,7 +129,7 @@ const teamMembers = [
   {
     id: 18,
     name: "Dr. Amitabh Biswas",
-    role: "Assistant Professor (Forensic Science)",
+    role: "Associate professor (Forensic Science)",
     image: amitabhBiswas,
   },
   {
@@ -147,7 +147,7 @@ const teamMembers = [
   {
     id: 21,
     name: "Dr. Mudassir Nazir",
-    role: "Assistant Professor (Forensic Science)",
+    role: "Assistant Professor (SOL)",
     image: mudassirNazir,
   },
 ];
