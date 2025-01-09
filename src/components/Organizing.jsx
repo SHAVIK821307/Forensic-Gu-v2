@@ -140,15 +140,15 @@ const teamMembers = [
   },
   {
     id: 20,
-    name: "Dr. Mudassir Nazir",
-    role: "Assistant Professor (Forensic Science)",
-    image: mudassirNazir,
-  },
-  {
-    id: 21,
     name: "Ms. Ayushi Singh",
     role: "Assistant Professor (Forensic Science)",
     image: ayushiSingh,
+  },
+  {
+    id: 21,
+    name: "Dr. Mudassir Nazir",
+    role: "Assistant Professor (Forensic Science)",
+    image: mudassirNazir,
   },
 ];
 
