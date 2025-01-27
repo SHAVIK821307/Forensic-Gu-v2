@@ -7,6 +7,7 @@ import RegistrationCharges from "../components/Registration";
 import Organizing from "../components/Organizing.jsx"
 import Sponsors from "../components/Sponsors.jsx";
 import { useNavigate } from "react-router-dom";
+import AbstractSub from "../components/AbstractSub.jsx";
 const Home = () => {
   const navigate=useNavigate();
   return (
@@ -86,6 +87,7 @@ const Home = () => {
       </div>
       </div>
       <About/>
+      <AbstractSub/>
       <RegistrationCharges/>
       <Organizing/>
       <Sponsors/>
